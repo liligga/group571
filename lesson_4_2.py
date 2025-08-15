@@ -15,8 +15,9 @@ class User:
     def validate_email(email):
         return "@" in email
 
+
 user_igor = User("Igor", "igor@gmail.com")
-user_kurmanbek = User("Kurmanbek", "kurmanbek@<EMAIL>")
+user_kurmanbek = User("Kurmanbek", "kurmanbek@gmail.com")
 print(User.total_users)
 print(User.get_total_users())
 print(User.validate_email("igor#gmail.com"))
