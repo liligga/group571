@@ -9,5 +9,5 @@ class Dog(Animal):
     def make_sound(self):
         print("гав гав")
 
-doggo = Dog()
-doggo.make_sound()
+puppy = Dog()
+puppy.make_sound()
