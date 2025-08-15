@@ -11,3 +11,5 @@ class Dog(Animal):
 
 puppy = Dog()
 puppy.make_sound()
+doggo = Dog()
+doggo.make_sound()
