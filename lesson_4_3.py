@@ -9,9 +9,11 @@ def printer(function):
 
     return wrapper
 
+
 @printer
 def hello_world():
     print("Hello World")
+
 
 @printer
 def add_numbers(a, b):
